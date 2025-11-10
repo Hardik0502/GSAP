@@ -40,3 +40,23 @@ gsap.to('h1',{
 //     delay:1,
 //     color :"orange"
 // })
+
+
+let tl = gsap.timeline();
+
+tl.from('.title h2',{
+    y : -20 ,
+    opacity : 0,
+    delay : 0.3,
+    duration:0.5,
+    
+})
+
+tl.from('.parts h3',{
+    y : -20,
+    opacity : 0,
+    delay : 0.3,
+    duration : 0.5,
+    stagger : 0.3,
+    scale : 2
+})

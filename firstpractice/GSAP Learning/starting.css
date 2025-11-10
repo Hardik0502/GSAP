@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
     background-color: black;
 }
 .box{
@@ -17,4 +18,21 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+.title{
+    margin-left: 10px;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 10px;
+
 }
